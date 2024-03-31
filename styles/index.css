@@ -1,0 +1,46 @@
+/*  style general */
+
+:root{
+    --primary-color:#ffaf42;
+    --secondary-color:#808080;
+    --white-color:#ffffff;
+}
+body{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn-primary{
+    background-color: transparent;
+    border: #ffaf42 2px solid;
+    color: #000000;
+}
+.btn-primary:hover{
+    background-color: #ffaf42;
+    border: #ffaf42 2px solid;
+}
+
+/*  navbar */
+.navbar{
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    position: fixed;
+  }
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+
+/*** banner ****/
+.banner{
+    padding: 7%;
+}
+
+.banner h1{
+    color: var(--secondary-color);
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.banner .text{
+    margin-top: 8%;
+}
