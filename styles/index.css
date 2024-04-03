@@ -88,15 +88,31 @@ h1,h2{
 }
 .activites .card{
     text-align: justify;
-    height: 370px;
+    height: 390px;
 }
 .activites a{
     text-decoration: none;
     color: var(--secondary-color);
 }
+.activites span{
+    color: var(--primary-color);
+}
 
+/*** actus ****/
+.actualites{
+    text-align: justify;
+    padding: 3%;
+}
 
-
+.actualites span{
+    color: var(--white-color);
+}
+.actualites .card{
+    text-align: justify;
+}
+.actualites p{
+    color: var(--secondary-color);
+}
 /*** footer ****/
 .footer{
     background-color: var(--white-color);

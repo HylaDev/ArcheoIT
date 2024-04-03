@@ -21,28 +21,28 @@
             <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mx-auto mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    <a class="nav-link active" aria-current="page" href="#">accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Qui sommes-nous?</a>
+                    <a class="nav-link" href="#">qui sommes-nous?</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Nos activités
+                        nos activités
                     </a>
                 <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDropdownMenuLink">
                     <li><a class="dropdown-item" href="#">Stages</a></li>
-                    <li><a class="dropdown-item" href="#">Conférences</a></li>
-                    <li><a class="dropdown-item" href="#">Revues</a></li>
+                    <li><a class="dropdown-item" href="#">conférences</a></li>
+                    <li><a class="dropdown-item" href="#">revues</a></li>
                 </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sites</a>
+                    <a class="nav-link" href="#">sites</a>
                 </li>
                
             </ul>
             <span class="navbar-text mr-auto">
-                <a href="" class="btn btn-primary">Contactez-nous</a>
+                <a href="" class="btn btn-primary">contactez-nous</a>
             </span>
             </div>
         </div>
@@ -61,7 +61,7 @@
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, quae? Est, laudantium quia! Necessitatibus, illo. Pariatur asperiores quo sit reprehenderit maiores 
                         
                     </p>
-                    <a href="" class="btn btn-primary ">Voir nos sites</a>
+                    <a href="" class="btn btn-primary ">voir nos sites</a>
                 </div>
                 <div class="col-md-6">
                     <img src="images/image.svg" class="img-fluid" alt="Archeo object">
@@ -99,7 +99,7 @@
         <section class="activites">
             <div class="container">
                 <h2 class="my-4">
-                    Nos activités
+                    nos <span class="primary">activités</span>
                 </h2>
                 <div class="row">
                     <div class="col-md-4 my-1">
@@ -107,7 +107,7 @@
                             <div class="card">
                                 <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
                                 <div class="card-body">
-                                <h5 class="card-title">Stages</h5>
+                                    <h5 class="card-title">Stages</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
@@ -118,6 +118,7 @@
                             <div class="card">
                                 <img src="images/book.jpeg" class="card-img-top" alt="Archeo Book">
                                 <div class="card-body">
+                                    <h5 class="card-title">Revues</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
@@ -129,6 +130,7 @@
                             <div class="card">
                                 <img src="images/meeting_1.jpeg" class="card-img-top" alt="Archeo meeting">
                                 <div class="card-body">
+                                    <h5 class="card-title">Conférences</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
@@ -138,6 +140,76 @@
             </div>
         </section>
     <!-- End activités section-->
+
+    <!-- Actus section-->
+    <section class="actualites my-bg-primary p-5">
+        <div class="container">
+            <h2 class="text-center">
+                notre <span>actualités</span>
+            </h2>
+            <div class="row">
+                <div class="col-md-3 my-1">
+                    <div class="card">
+                        <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
+                        <div class="card-body">
+                            <h5 class="card-title">Dernières découvertes</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Lire +</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-1">
+                    <div class="card">
+                        <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
+                        <div class="card-body">
+                            <h5 class="card-title">Dernières découvertes</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Lire +</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-1">
+                    <div class="card">
+                        <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
+                        <div class="card-body">
+                            <h5 class="card-title">Dernières découvertes</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Lire +</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-1">
+                    <div class="card">
+                        <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
+                        <div class="card-body">
+                            <h5 class="card-title">Dernières découvertes</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Lire +</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Actus section-->
+
+    <!--Call to action -->
+    <section class="cta p-5">
+        <div class="container">
+           <div class="row">
+                <div class="col-md-8">
+                    <p> Envie de participer à nos stages pour enfants et adultes ?
+                        N'attendez plus rien inscrivez-vous dès maintenant à une section de stage
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href="" class="btn btn-primary">inscription</a>
+                </div>
+           </div>
+        </div>
+    </section>
+    <!--End Call to action -->
+
 
     <!-- Footer section-->
     <section class="footer">
