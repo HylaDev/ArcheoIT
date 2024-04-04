@@ -21,10 +21,10 @@
             <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mx-auto mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">accueil</a>
+                    <a class="nav-link actif" aria-current="page" href="index.php">accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">qui sommes-nous?</a>
+                    <a class="nav-link" href="about-us.php">qui sommes-nous?</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,7 +37,7 @@
                 </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">sites</a>
+                    <a class="nav-link" href="sites.php">sites</a>
                 </li>
                
             </ul>
@@ -99,7 +99,7 @@
         <section class="activites">
             <div class="container">
                 <h2 class="my-4">
-                    nos <span class="primary">activités</span>
+                    nos <span class="">activités</span>
                 </h2>
                 <div class="row">
                     <div class="col-md-4 my-1">
@@ -199,11 +199,12 @@
            <div class="row">
                 <div class="col-md-8">
                     <p> Envie de participer à nos stages pour enfants et adultes ?
-                        N'attendez plus rien inscrivez-vous dès maintenant à une section de stage
+                        N'attendez plus rien inscrivez-vous dès maintenant à une section de stage.
+                        
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <a href="" class="btn btn-primary">inscription</a>
+                    <a href="" class="btn btn-primary">inscription <i class="fa fa-arrow-right"></i></a>
                 </div>
            </div>
         </div>

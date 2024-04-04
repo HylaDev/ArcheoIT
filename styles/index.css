@@ -1,7 +1,7 @@
 /*  style general */
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
-    --primary-color:#ffaf42;
+    --primary-color:#2ed38b;
     --secondary-color:#808080;
     --white-color:#ffffff;
     --black-color:#000000;
@@ -27,7 +27,9 @@ body{
     background-color: var(--secondary-color);
     border: var(--primary-color) 2px solid;
 }
-
+.text-justify{
+    text-align: justify !important;
+}
 .my-bg-primary{
     background-color: var(--primary-color);
 }
@@ -42,6 +44,9 @@ body{
 }
 h1,h2{
     color: var(--secondary-color);
+}
+.actif{
+    color: var(--primary-color) !important;
 }
 
 /*  navbar */
@@ -70,7 +75,18 @@ h1,h2{
 .banner .text{
     margin-top: 8%;
 }
+.banner img {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
 
+}
+@keyframes up-down {
+    0% {
+      transform: translateY(15px);
+    }
+    100% {
+      transform: translateY(-15px);
+    }
+  }
 
 /*** about-us  ****/
 .about-us{
@@ -113,6 +129,45 @@ h1,h2{
 .actualites p{
     color: var(--secondary-color);
 }
+
+
+/** Breads***/
+.breads a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+/** about page **/
+
+.about span{
+    color: var(--primary-color);
+}
+
+.about img {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
+}
+@keyframes up-down {
+    0% {
+      transform: translateY(15px);
+    }
+    100% {
+      transform: translateY(-15px);
+    }
+  }
+
+.team span{
+    color: var(--primary-color) !important;
+}
+.team .card {
+    -webkit-box-shadow: -4px 7px 16px -6px #2ed38b; 
+    box-shadow: -4px 7px 16px -6px #2ed38b;
+}
+
+/** Sites fouille **/
+.sites span{
+    color: var(--primary-color) !important;
+}
 /*** footer ****/
 .footer{
     background-color: var(--white-color);
@@ -128,7 +183,7 @@ h1,h2{
 }
 .footer a:hover{
     color: var(--primary-color);   
-}
+}n
 
 .footer .heart{
     font-size: 20px;
