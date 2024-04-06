@@ -31,9 +31,9 @@
                         nos activités
                     </a>
                 <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Stages</a></li>
-                    <li><a class="dropdown-item" href="#">conférences</a></li>
-                    <li><a class="dropdown-item" href="#">revues</a></li>
+                    <li><a class="dropdown-item" href="stages.php">stages</a></li>
+                    <li><a class="dropdown-item" href="conferences.php">conférences</a></li>
+                    <li><a class="dropdown-item" href="revues.php">revues</a></li>
                 </ul>
                 </li>
                 <li class="nav-item">
@@ -53,7 +53,7 @@
     <section class='breads mt-5'>
         <div class="container">
             <div class="d-flex">
-                <a href="" class="">Accueil</a> <span class="mx-2"><</span> <p class="actif">qui sommes-nous ?</p>
+                <a href="" class="">Accueil</a> <span class="mx-2">/</span> <p class="actif">qui sommes-nous ?</p>
             </div>
             <hr>
         </div>
@@ -86,7 +86,7 @@
     <section class="team p-5">
         <div class="container">
             <h2 class="my-5 text-center">
-                Conseil <span class="">d'administration</span>
+                conseil <span class="">d'administration</span>
             </h2>
             <div class="row">
                 <div class="col-md-3">

@@ -31,9 +31,9 @@
                         nos activités
                     </a>
                 <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Stages</a></li>
-                    <li><a class="dropdown-item" href="#">conférences</a></li>
-                    <li><a class="dropdown-item" href="#">revues</a></li>
+                    <li><a class="dropdown-item" href="stages.php">stages</a></li>
+                    <li><a class="dropdown-item" href="conferences.php">conférences</a></li>
+                    <li><a class="dropdown-item" href="revues.php">revues</a></li>
                 </ul>
                 </li>
                 <li class="nav-item">
@@ -58,10 +58,9 @@
                         L'archéologie au coeur de nos projets
                     </h1>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, quae? Est, laudantium quia! Necessitatibus, illo. Pariatur asperiores quo sit reprehenderit maiores 
-                        
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, quae? Est, laudantium quia! Necessitatibus, illo. Pariatur asperiores quo sit reprehenderit maiores
                     </p>
-                    <a href="" class="btn btn-primary ">voir nos sites</a>
+                    <a href="sites.php" class="btn btn-primary ">voir nos sites</a>
                 </div>
                 <div class="col-md-6">
                     <img src="images/image.svg" class="img-fluid" alt="Archeo object">

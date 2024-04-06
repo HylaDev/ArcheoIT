@@ -59,8 +59,16 @@ h1,h2{
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0; /* remove the gap so it doesn't close */
+    margin-top: 0; 
 }
+.dropdown a:focus {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.navbar .nav-link:hover{
+    color: var(--primary-color) !important;
+}
+
 
 
 /*** banner ****/
@@ -167,6 +175,22 @@ h1,h2{
 /** Sites fouille **/
 .sites span{
     color: var(--primary-color) !important;
+}
+
+/** Stages**/
+.stage span{
+    color: var(--primary-color) !important;
+}
+.stage .card {
+    -webkit-box-shadow: -4px 7px 16px -6px #2ed38b; 
+    box-shadow: -4px 7px 16px -6px #2ed38b;
+}
+.stage .card:hover{
+    box-shadow: none;
+}
+.stage a{
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 /*** footer ****/
 .footer{
