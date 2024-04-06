@@ -192,6 +192,28 @@ h1,h2{
     text-decoration: none;
     color: var(--secondary-color);
 }
+
+/** Stages**/
+.revues span{
+    color: var(--primary-color) !important;
+}
+.revues .card {
+    -webkit-box-shadow: -4px 7px 16px -6px #2ed38b; 
+    box-shadow: -4px 7px 16px -6px #2ed38b;
+}
+.revues .card:hover{
+    box-shadow: none;
+}
+.revues a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+/** contact **/
+input:focus, textarea:focus, .btn:focus{
+    border-color: var(--primary-color) !important;
+}
+
 /*** footer ****/
 .footer{
     background-color: var(--white-color);
@@ -207,7 +229,7 @@ h1,h2{
 }
 .footer a:hover{
     color: var(--primary-color);   
-}n
+}
 
 .footer .heart{
     font-size: 20px;

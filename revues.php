@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ArcheoIT - Conférence</title>
+    <title>ArcheoIT - Revues</title>
     <!--Bootstrap 5 link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Mes feuilles de style-->
@@ -53,70 +53,69 @@
     <section class='breads mt-5'>
         <div class="container">
             <div class="d-flex">
-                <a href="" class="">Accueil</a> <span class="mx-2">/</span> <p class="actif">conférences</p>
+                <a href="" class="">accueil</a> <span class="mx-2">/</span> <p class="actif">revues téléchargeable</p>
             </div>
             <hr>
         </div>
     </section>
     <!-- End Breadcrumbs section-->
 
-    <!-- Stages -->
-    <section class="stage p-4">
+    <!-- revues -->
+    <section class="revues p-4">
         <div class="container">
             <h2 class="my-2 text-center">
-                nos <span class="">conférences</span>
+                nos <span class="">revues</span>
             </h2>
-            <p class="text-center">Chaque dernier jeudi du mois nous réalisons une conférence sur nos différentes découvertes
-            </p>
             <div class="row">
-                <div class="col-md-6 mt-5">
-                    <div class="">
-                        <p class="text-justify">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus unde natus rerum blanditiis consectetur repellat? Molestiae, neque a, dicta ea nam, alias dolorem optio at fugiat hic in velit.
-                        </p>
-                        <p class="text-justify">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus unde natus rerum blanditiis consectetur repellat? Molestiae, neque a, dicta ea nam, alias dolorem optio at fugiat hic in velit.
-                        </p>
-                        <div class="d-flex">
-                            <p><i class="fa fa-calendar"> 21 Sept 2024</i></p>
-                            <p class="mx-3"><i class="fa fa-map-marker"> Orléans 45</i></p>
+                <div class="col-md-4 my-2">
+                   <a href="">
+                        <div class="card border-0">
+                            <img src="images/book.jpeg" class="card-img-top" alt="Archeo search">
+                            <div class="card-body">
+                                <h6 class="card-title"><i class="fa fa-clock"></i> 20 Oct. 2023</h6>
+                            </div>
+                            <div class="card-footer border-0 bg-white">
+                                <a href="" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
+                            </div>
                         </div>
-                    </div>
+                   </a>
                 </div>
-                <div class="col-md-6 my-2">
-                    <div class="">
-                        <img src="images/meeting_1.jpeg" class="card-img-top" alt="Archeo search">
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-            <div class="col-md-6 my-2 order-lg-2 order-md-1">
-                    <div class="">
-                        <img src="images/meeting_1.jpeg" class="card-img-top" alt="Archeo search">
-                    </div>
-                </div>
-                <div class="col-md-6 mt-5 order-lg-2 order-md-1">
-                    <div class="">
-                        <p class="text-justify">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus unde natus rerum blanditiis consectetur repellat? Molestiae, neque a, dicta ea nam, alias dolorem optio at fugiat hic in velit.
-                        </p>
-                        <p class="text-justify">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus unde natus rerum blanditiis consectetur repellat? Molestiae, neque a, dicta ea nam, alias dolorem optio at fugiat hic in velit.
-                        </p>
-                        <div class="d-flex">
-                            <p><i class="fa fa-calendar"> 21 Sept 2024</i></p>
-                            <p class="mx-3"><i class="fa fa-map-marker"> Orléans 45</i></p>
+                <div class="col-md-4 my-2">
+                   <a href="">
+                        <div class="card border-0">
+                            <img src="images/book.jpeg" class="card-img-top" alt="Archeo search">
+                            <div class="card-body">
+                                <h6 class="card-title"><i class="fa fa-clock"></i> 20 Oct. 2023</h6>
+                            </div>
+                            <div class="card-footer border-0 bg-white">
+                                <a href="" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
+                            </div>
                         </div>
-                    </div>
+                   </a>
                 </div>
+                <div class="col-md-4 my-2">
+                   <a href="">
+                        <div class="card border-0">
+                            <img src="images/book.jpeg" class="card-img-top" alt="Archeo search">
+                            <div class="card-body">
+                                <h6 class="card-title"><i class="fa fa-clock"></i> 20 Oct. 2023</h6>
+                            </div>
+                            <div class="card-footer border-0 bg-white">
+                                <a href="" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
+                            </div>
+                        </div>
+                   </a>
+                </div>
+               
+                
             </div>
         </div>
     </section>
-    <!-- End Stages -->
+    <!-- End revues -->
 
     <!--Call to action -->
-     <section class="cta p-5 my-bg-primary">
+    <section class="cta p-5 my-bg-primary">
         <div class="container">
            <div class="row">
                 <div class="col-md-8">
