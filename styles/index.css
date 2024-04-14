@@ -18,6 +18,7 @@ body{
     background-color: var(--primary-color);
     border: var(--primary-color) 2px solid;
 }
+
 .btn-secondary{
     background-color: transparent;
     border: var(--secondary-color) 2px solid;
@@ -25,7 +26,7 @@ body{
 }
 .btn-secondary:hover{
     background-color: var(--secondary-color);
-    border: var(--primary-color) 2px solid;
+    border: var(--secondary-color) 2px solid;
 }
 .text-justify{
     text-align: justify !important;
@@ -84,12 +85,12 @@ h1,h2{
     margin-top: 8%;
 }
 .banner img {
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
 
 }
 @keyframes up-down {
     0% {
-      transform: translateY(15px);
+      transform: translateY(10px);
     }
     100% {
       transform: translateY(-15px);
@@ -152,15 +153,15 @@ h1,h2{
 }
 
 .about img {
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
 
 }
 @keyframes up-down {
     0% {
-      transform: translateY(15px);
+      transform: translateY(-12px);
     }
     100% {
-      transform: translateY(-15px);
+      transform: translateY(-10px);
     }
   }
 
@@ -212,6 +213,7 @@ h1,h2{
 /** contact **/
 input:focus, textarea:focus, .btn:focus{
     border-color: var(--primary-color) !important;
+    background-color: var(--primary-color);
 }
 
 /*** footer ****/

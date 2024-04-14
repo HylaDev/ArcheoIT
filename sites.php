@@ -14,7 +14,7 @@
     <!-- Nav section-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">archeoIT</a>
+        <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="150px" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,7 +42,7 @@
                
             </ul>
             <span class="navbar-text mr-auto">
-                <a href="" class="btn btn-primary">contactez-nous</a>
+                <a href="contact.php" class="btn btn-primary">contactez-nous</a>
             </span>
             </div>
         </div>

@@ -14,7 +14,7 @@
     <!-- Nav section-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">archeoIT</a>
+        <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="150px" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,7 +42,8 @@
                
             </ul>
             <span class="navbar-text mr-auto">
-                <a href="" class="btn btn-primary">contactez-nous</a>
+                <a href="contact.php" class="btn btn-primary">contact</a>
+                <a href="contact.php" class="btn btn-secondary">inscription</a>
             </span>
             </div>
         </div>
@@ -72,20 +73,59 @@
                 </div>
                 <div class="col-md-6">
                     <p>Remplissez le formulaire suivant pour nous contacter</p>
-                    <form>
+                    <form method="post" action="insert_contact.php">
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Votre nom">
+                                <input type="text" name="nom" class="form-control" placeholder="Votre nom">
                                 </div>
                                 <div class="col">
-                                <input type="text" class="form-control" placeholder="Votre prénom">
+                                <input type="text" name="prenom" class="form-control" placeholder="Votre prénom">
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control my-3" id=""  placeholder="Entrez votre email">
-                            <textarea name="" class="form-control" placeholder="Votre message" id="" cols="20" rows="10"></textarea>
+                            <input type="text" name="objet" class="form-control my-3" id=""  placeholder="Entrez votre objet">
+                            <input type="email" name="email" class="form-control my-3" id=""  placeholder="Entrez votre email">
+                            <textarea name="body" class="form-control" placeholder="Votre message" id="" cols="20" rows="10"></textarea>
                         </div>
-                        <a href="" class="btn btn-primary w-100 my-3">Envoyer</a>
+                        <input type="submit" class="btn btn-primary w-100 my-3"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End revues -->
+    <!-- revues -->
+    <section class="revues p-4">
+        <div class="container-fluid">
+            <h2 class="my-3 text-center">
+                inscription à<span class=""> un stage</span>
+            </h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 my-bg-primary">
+                    
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <p>Remplissez le formulaire suivant pour vous inscrire</p>
+                    <form method="post" action="insert_inscription.php">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" name="lastname" class="form-control" placeholder="Votre nom">
+                                </div>
+                                <div class="col">
+                                <input type="text" name="firstname" class="form-control" placeholder="Votre prénom">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="u_email" class="form-control my-3" id=""  placeholder="Entrez votre email">
+                            <input type="date" name="date_naissance" class="form-control my-3" id=""  placeholder="Entrez votre objet">
+                            <select name="stage" class="form-control my-3" id="">
+                                <option>-------------</options>
+                                <option value="stage 1">stage 1</options>
+                                <option value="stage 2">stage 2</options>
+                            </select>
+                            <textarea name="commentaires" class="form-control" placeholder="Votre message" id="" cols="20" rows="5"></textarea>
+                        </div>
+                        <input type="submit" value="Soumettre" class="btn btn-primary w-100 my-3"/>
                     </form>
                 </div>
             </div>

@@ -14,7 +14,7 @@
     <!-- Nav section-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">archeoIT</a>
+            <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="150px" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,10 +39,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="sites.php">sites</a>
                 </li>
-               
             </ul>
             <span class="navbar-text mr-auto">
-                <a href="" class="btn btn-primary">contactez-nous</a>
+                <a href="contact.php" class="btn btn-primary">contactez-nous</a>
             </span>
             </div>
         </div>
@@ -51,6 +50,7 @@
 
     <!-- Banner section-->
     <section class='banner'>
+        <br><br>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text">
@@ -63,7 +63,7 @@
                     <a href="sites.php" class="btn btn-primary ">voir nos sites</a>
                 </div>
                 <div class="col-md-6">
-                    <img src="images/image.svg" class="img-fluid" alt="Archeo object">
+                    <img src="images/image.svg" class="img-fluid my-3" alt="Archeo object">
                 </div>
             </div>
         </div>
@@ -153,7 +153,6 @@
                         <div class="card-body">
                             <h5 class="card-title">Dernières découvertes</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Lire +</a>
                         </div>
                     </div>
                 </div>
@@ -163,7 +162,6 @@
                         <div class="card-body">
                             <h5 class="card-title">Dernières découvertes</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Lire +</a>
                         </div>
                     </div>
                 </div>
@@ -173,7 +171,6 @@
                         <div class="card-body">
                             <h5 class="card-title">Dernières découvertes</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Lire +</a>
                         </div>
                     </div>
                 </div>
@@ -183,7 +180,6 @@
                         <div class="card-body">
                             <h5 class="card-title">Dernières découvertes</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Lire +</a>
                         </div>
                     </div>
                 </div>
