@@ -69,10 +69,13 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <p class="text-justify my-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aspernatur numquam natus harum aut delectus velit amet facere in corrupti libero, itaque ullam? Debitis quis sunt, alias voluptates temporibus harum!
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est sit praesentium facilis repellendus consectetur excepturi eius suscipit, aliquam distinctio officia culpa debitis dolorem itaque libero sunt amet? Deserunt, voluptatibus perspiciatis.
+                    <p class="text-justify mt-4">
+                        archeo<span>IT</span> a été créé en 2024 en application de la loi de 2001 sur l'archéologie préventive. L'institut assure la détection et l'étude du patrimoine archéologique touché par les travaux d'aménagement du territoire. Il exploite et diffuse les résultats de ses recherches auprès de la communauté scientifique et concourt à l'enseignement, à la diffusion culturelle et à la valorisation de l'archéologie auprès du public.
                     </p>
+                    <p class="text-justify">
+                        Sa création traduit l'importance prise, depuis les années 1970, par la recherche archéologique en France, et témoigne de la volonté de l'État de soutenir l'exercice de cette mission de service public d'intérêt général.
+                    </p>
+
                 </div>
                 <div class="col-md-6">
                     <img src="images/about-img.svg" alt="">

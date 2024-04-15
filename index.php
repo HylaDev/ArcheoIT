@@ -58,7 +58,7 @@
                         L'archéologie au coeur de nos projets
                     </h1>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, quae? Est, laudantium quia! Necessitatibus, illo. Pariatur asperiores quo sit reprehenderit maiores
+                        ArcheoIT fouille un peu partout en France et à l'internationnale
                     </p>
                     <a href="sites.php" class="btn btn-primary ">voir nos sites</a>
                 </div>
@@ -81,10 +81,13 @@
                         </h2>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis sequi placeat maiores, a eveniet sapiente deserunt earum 
-                        odit dolorum eos in, accusantium autem, dicta vitae. Vel atque voluptatum error.
+                        Notre équipe est composée de jeunes archéologues passionnés et énergiques. En collaboration avec des experts de l'<a class="text-gray" href="https://www.inrap.fr/" target="blank">Inrap</a>, nous entreprenons des fouilles à travers le monde, 
+                        explorant divers sites archéologiques avec enthousiasme et engagement.
                     </p>
-                    <a href="" class="btn btn-secondary">En savoir +</a>
+                    <p>
+                        Notre objetif est de comprendre notre passé et de préserver notre patrimoine culturel.
+                    </p>
+                    <a href="about-us.php" class="btn btn-secondary">En savoir +</a>
                 </div>
                 <div class="col-md-6">
                     <img src="images/about.jpeg" class="img-fluid" alt="">
@@ -102,35 +105,47 @@
                 </h2>
                 <div class="row">
                     <div class="col-md-4 my-1">
-                        <a href="">
+                        <a href="contact.php#inscription">
                             <div class="card">
                                 <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
                                 <div class="card-body">
                                     <h5 class="card-title">Stages</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text">
+                                        Plongez dans l'aventure passionnante de l'archéologie avec notre programme de stages conçu 
+                                        pour les enfants et les adultes ! Rejoignez-nous pour une expérience 
+                                        immersive où vous découvrirez les mystères cachés du passé tout en apprenant les techniques de fouille.
+                                    </p>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-4 ">
-                        <a href="">
+                        <a href="revues.php">
                             <div class="card">
                                 <img src="images/book.jpeg" class="card-img-top" alt="Archeo Book">
                                 <div class="card-body">
                                     <h5 class="card-title">Revues</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text">
+                                        Découvrez notre collection captivante de revues téléchargeables en archéologie, 
+                                        conçues pour tous les passionnés, que vous soyez enfants ou adultes.
+                                        Nos revues offrent un contenu riche, illustré de photographies saisissantes et de diagrammes explicatifs
+                                        pour vous faire voyager à travers l'histoire humaine.
+                                    </p>
                                 </div>
                             </div>
                         </a>
                     </div>
                     
                     <div class="col-md-4 my-1">
-                        <a href="">
+                        <a href="conferences.php">
                             <div class="card">
                                 <img src="images/meeting_1.jpeg" class="card-img-top" alt="Archeo meeting">
                                 <div class="card-body">
                                     <h5 class="card-title">Conférences</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text">
+                                        Venez découvrir le passionnant monde de l'archéologie à travers nos conférences captivantes, 
+                                        adaptées à tous les âges ! Que vous soyez un enfant curieux ou un adulte avide de connaissances.
+                                    </p>
                                 </div>
                             </div>
                         </a>
@@ -147,39 +162,47 @@
                 notre <span>actualités</span>
             </h2>
             <div class="row">
-                <div class="col-md-3 my-1">
+            <div class="col-md-4 my-2">
                     <div class="card">
-                        <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
+                        <div class="actu-image">
+                            <p>découvertes</p>
+                            <img src="images/moulin.jpg" class="card-img-top" alt="Archeo search">
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Dernières découvertes</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Archéologie d'un moulin à vent à Sartrouville (Yvelines) </h5>
+                            <p class="card-text">
+                                Une équipe de l'Inrap fouille les fondations d'un moulin à vent et de la maison d'un meunier, un vestige rare d’une 
+                                machine ayant pourtant joué un rôle prépondérant dans l’économie médiévale et moderne.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 my-1">
+                <div class="col-md-4 my-2">
                     <div class="card">
-                        <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
+                        <div class="actu-image">
+                            <p>évènements</p>
+                            <img src="images/musee.jpg" class="card-img-top" alt="Archeo search">
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title">Dernières découvertes</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">La somme des pré-histoires au musée Picardie</h5>
+                            <p class="card-text">
+                                Labellisée « exposition d'intérêt national » par le ministère de la Culture, « La Somme des Préhistoires » met en lumière l'archéologie d'un territoire 
+                                qui a été le berceau des études préhistoriques mondiales. </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 my-1">
+                
+                <div class="col-md-4 my-2">
                     <div class="card">
-                        <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
-                        <div class="card-body">
-                            <h5 class="card-title">Dernières découvertes</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="actu-image">
+                            <p>découvertes</p>
+                            <img src="images/marche.jpg" class="card-img-top" alt="Archeo search">
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-3 my-1">
-                    <div class="card">
-                        <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
                         <div class="card-body">
-                            <h5 class="card-title">Dernières découvertes</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Fouille de la place du Marché couvert au Puy-en-Velay (Haute-Loire) </h5>
+                            <p class="card-text">
+                            À l’occasion de travaux d’installation de conteneurs enterrés, l’Inrap a conduit une fouille sur la place du Marché couvert dans le centre ancien du Puy-en-Velay.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -195,11 +218,10 @@
                 <div class="col-md-8">
                     <p> Envie de participer à nos stages pour enfants et adultes ?
                         N'attendez plus rien inscrivez-vous dès maintenant à une section de stage.
-                        
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <a href="" class="btn btn-primary">inscription <i class="fa fa-arrow-right"></i></a>
+                    <a href="contact.php#inscription" class="btn btn-primary">inscription <i class="fa fa-arrow-right"></i></a>
                 </div>
            </div>
         </div>

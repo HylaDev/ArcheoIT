@@ -95,7 +95,7 @@
     </section>
     <!-- End revues -->
     <!-- revues -->
-    <section class="revues p-4">
+    <section class="revues p-4" id="inscription">
         <div class="container-fluid">
             <h2 class="my-3 text-center">
                 inscription à<span class=""> un stage</span>

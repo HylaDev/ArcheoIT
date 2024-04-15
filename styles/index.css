@@ -49,6 +49,10 @@ h1,h2{
 .actif{
     color: var(--primary-color) !important;
 }
+.text-gray{
+    color: var(--secondary-color)!important;
+}
+
 
 /*  navbar */
 .navbar{
@@ -90,10 +94,10 @@ h1,h2{
 }
 @keyframes up-down {
     0% {
-      transform: translateY(10px);
+      transform: translateY(12px);
     }
     100% {
-      transform: translateY(-15px);
+      transform: translateY(-12px);
     }
   }
 
@@ -113,7 +117,8 @@ h1,h2{
 }
 .activites .card{
     text-align: justify;
-    height: 390px;
+    height: 470px;
+    padding: 1%;
 }
 .activites a{
     text-decoration: none;
@@ -122,6 +127,7 @@ h1,h2{
 .activites span{
     color: var(--primary-color);
 }
+
 
 /*** actus ****/
 .actualites{
@@ -132,8 +138,22 @@ h1,h2{
 .actualites span{
     color: var(--white-color);
 }
+
+.actualites .actu-image p{
+    position: absolute;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1%;
+    margin-top: 2%;
+    font-weight: 700;
+}
 .actualites .card{
     text-align: justify;
+    height: 480px !important;
+}
+.actualites .card .card-title{
+    color: var(--secondary-color) !important;
+    font-weight: 600;
 }
 .actualites p{
     color: var(--secondary-color);
@@ -158,10 +178,10 @@ h1,h2{
 }
 @keyframes up-down {
     0% {
-      transform: translateY(-12px);
+      transform: translateY(12px);
     }
     100% {
-      transform: translateY(-10px);
+      transform: translateY(-12px);
     }
   }
 
