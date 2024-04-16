@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ArcheoIT - Conférence</title>
+    <title>ArcheoIT - Sites Fouilles</title>
     <!--Bootstrap 5 link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Mes feuilles de style-->
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="/ArcheoIT/styles/index.css">
 </head>
 <body>
     
     <!-- Nav section-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-        <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="150px" alt=""></a>
+        <a class="navbar-brand" href="/ArcheoIT/index.php"><img src="/ArcheoIT/images/logo.png" width="150px" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mx-auto mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="index.php">accueil</a>
+                    <a class="nav-link " aria-current="page" href="/ArcheoIT/index.php">accueil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about-us.php">qui sommes-nous?</a>
@@ -53,70 +53,33 @@
     <section class='breads mt-5'>
         <div class="container">
             <div class="d-flex">
-                <a href="" class="">Accueil</a> <span class="mx-2">/</span> <p class="actif">conférences</p>
+                <a href="/ArcheoIT/index.php" class="">Accueil</a> <span class="mx-2">/</span> <p class="actif">sites de fouille</p>
             </div>
             <hr>
         </div>
     </section>
     <!-- End Breadcrumbs section-->
 
-    <!-- Stages -->
-    <section class="stage p-4">
+    <!-- sites section-->
+    <section class='sites p-5'>
         <div class="container">
-            <h2 class="my-2 text-center">
-                nos <span class="">conférences</span>
+            <h2 class=" text-center">
+                sites <span class="">de fouilles</span>
             </h2>
-            <p class="text-center">Chaque dernier jeudi du mois nous réalisons une conférence sur nos différentes découvertes
-            </p>
-            <div class="row">
-                <div class="col-md-6 mt-5">
-                    <div class="">
-                        <p class="text-justify">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus unde natus rerum blanditiis consectetur repellat? Molestiae, neque a, dicta ea nam, alias dolorem optio at fugiat hic in velit.
-                        </p>
-                        <p class="text-justify">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus unde natus rerum blanditiis consectetur repellat? Molestiae, neque a, dicta ea nam, alias dolorem optio at fugiat hic in velit.
-                        </p>
-                        <div class="d-flex">
-                            <p><i class="fa fa-calendar"> 21 Sept 2024</i></p>
-                            <p class="mx-3"><i class="fa fa-map-marker"> Orléans 45</i></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 my-2">
-                    <div class="">
-                        <img src="images/meeting_1.jpeg" class="card-img-top" alt="Archeo search">
-                    </div>
-                </div>
-            </div>
+            <p class="text-center">nous avons des sites de fouilles un peu partout en France</p>
 
             <div class="row">
-            <div class="col-md-6 my-2 order-lg-2 order-md-1">
-                    <div class="">
-                        <img src="images/meeting_1.jpeg" class="card-img-top" alt="Archeo search">
-                    </div>
-                </div>
-                <div class="col-md-6 mt-5 order-lg-2 order-md-1">
-                    <div class="">
-                        <p class="text-justify">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus unde natus rerum blanditiis consectetur repellat? Molestiae, neque a, dicta ea nam, alias dolorem optio at fugiat hic in velit.
-                        </p>
-                        <p class="text-justify">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus unde natus rerum blanditiis consectetur repellat? Molestiae, neque a, dicta ea nam, alias dolorem optio at fugiat hic in velit.
-                        </p>
-                        <div class="d-flex">
-                            <p><i class="fa fa-calendar"> 21 Sept 2024</i></p>
-                            <p class="mx-3"><i class="fa fa-map-marker"> Orléans 45</i></p>
-                        </div>
-                    </div>
-                </div>
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1BQngABLstnml8o1Y-injqWpk5EkEuZg&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
             </div>
         </div>
     </section>
-    <!-- End Stages -->
+    <!-- End sites section-->
+
+    
+  
 
     <!--Call to action -->
-     <section class="cta p-5 my-bg-primary">
+    <section class="cta p-5 my-bg-primary">
         <div class="container">
            <div class="row">
                 <div class="col-md-8">
@@ -126,7 +89,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <a href="" class="btn btn-secondary">inscription <i class="fa fa-arrow-right"></i></a>
+                    <a href="contact.php#inscription" class="btn btn-secondary">inscription <i class="fa fa-arrow-right"></i></a>
                 </div>
            </div>
         </div>

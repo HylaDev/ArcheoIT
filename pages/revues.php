@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ArcheoIT - Stages</title>
+    <title>ArcheoIT - Revues</title>
     <!--Bootstrap 5 link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Mes feuilles de style-->
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="/ArcheoIT/styles/index.css">
 </head>
 <body>
     
     <!-- Nav section-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-        <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="150px" alt=""></a>
+        <a class="navbar-brand" href="/ArcheoIT/index.php"><img src="/ArcheoIT/images/logo.png" width="150px" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mx-auto mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="index.php">accueil</a>
+                    <a class="nav-link " aria-current="page" href="/ArcheoIT/index.php">accueil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about-us.php">qui sommes-nous?</a>
@@ -53,29 +53,29 @@
     <section class='breads mt-5'>
         <div class="container">
             <div class="d-flex">
-                <a href="" class="">Accueil</a> <span class="mx-2">/</span> <p class="actif">stages</p>
+                <a href="" class="">accueil</a> <span class="mx-2">/</span> <p class="actif">revues téléchargeable</p>
             </div>
             <hr>
         </div>
     </section>
     <!-- End Breadcrumbs section-->
 
-    <!-- Stages -->
-    <section class="stage p-4">
+    <!-- revues -->
+    <section class="revues p-4">
         <div class="container">
             <h2 class="my-2 text-center">
-                nos <span class="">stages</span>
+                nos <span class="">revues</span>
             </h2>
             <div class="row">
                 <div class="col-md-4 my-2">
                    <a href="">
                         <div class="card border-0">
-                            <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
+                            <img src="/ArcheoIT/images/book.jpeg" class="card-img-top" alt="Archeo search">
                             <div class="card-body">
                                 <h6 class="card-title"><i class="fa fa-clock"></i> 20 Oct. 2023</h6>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <a href="" class="btn btn-primary">S'inscrire</a>
+                                <a href="" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
                             </div>
                         </div>
                    </a>
@@ -84,12 +84,12 @@
                 <div class="col-md-4 my-2">
                    <a href="">
                         <div class="card border-0">
-                            <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
+                            <img src="/ArcheoIT/images/book.jpeg" class="card-img-top" alt="Archeo search">
                             <div class="card-body">
                                 <h6 class="card-title"><i class="fa fa-clock"></i> 20 Oct. 2023</h6>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <a href="" class="btn btn-primary">S'inscrire</a>
+                                <a href="" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
                             </div>
                         </div>
                    </a>
@@ -97,12 +97,12 @@
                 <div class="col-md-4 my-2">
                    <a href="">
                         <div class="card border-0">
-                            <img src="images/banner.jpeg" class="card-img-top" alt="Archeo search">
+                            <img src="/ArcheoIT/images/book.jpeg" class="card-img-top" alt="Archeo search">
                             <div class="card-body">
                                 <h6 class="card-title"><i class="fa fa-clock"></i> 20 Oct. 2023</h6>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <a href="" class="btn btn-primary">S'inscrire</a>
+                                <a href="" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
                             </div>
                         </div>
                    </a>
@@ -112,7 +112,25 @@
             </div>
         </div>
     </section>
-    <!-- End Team -->
+    <!-- End revues -->
+
+    <!--Call to action -->
+    <section class="cta p-5 my-bg-primary">
+        <div class="container">
+           <div class="row">
+                <div class="col-md-8">
+                    <p class="text-white"> Envie de participer à nos stages pour enfants et adultes ?
+                        N'attendez plus rien inscrivez-vous dès maintenant à une section de stage.
+                        
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href="contact.php#inscription" class="btn btn-secondary">inscription <i class="fa fa-arrow-right"></i></a>
+                </div>
+           </div>
+        </div>
+    </section>
+    <!--End Call to action -->
 
 
     <!-- Footer section-->

@@ -24,7 +24,7 @@
                     <a class="nav-link actif" aria-current="page" href="index.php">accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about-us.php">qui sommes-nous?</a>
+                    <a class="nav-link" href="/ArcheoIT/pages/about-us.php">qui sommes-nous?</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -58,7 +58,7 @@
                         L'archéologie au coeur de nos projets
                     </h1>
                     <p>
-                        ArcheoIT fouille un peu partout en France et à l'internationnale
+                        archeoIT fouille un peu partout en France et à l'internationnale
                     </p>
                     <a href="sites.php" class="btn btn-primary ">voir nos sites</a>
                 </div>
@@ -72,7 +72,7 @@
 
     <!-- About us section-->
     <section class='about-us my-bg-primary p-5'>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 my-4">
                     <div class="titre">
@@ -157,7 +157,7 @@
 
     <!-- Actus section-->
     <section class="actualites my-bg-primary p-5">
-        <div class="container">
+        <div class="container-fluid">
             <h2 class="text-center">
                 notre <span>actualités</span>
             </h2>
@@ -213,7 +213,7 @@
 
     <!--Call to action -->
     <section class="cta p-5">
-        <div class="container">
+        <div class="container-fluid">
            <div class="row">
                 <div class="col-md-8">
                     <p> Envie de participer à nos stages pour enfants et adultes ?

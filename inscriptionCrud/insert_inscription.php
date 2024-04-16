@@ -1,5 +1,5 @@
 <?php
-    require('connect_bd.php');
+    require('/ArcheoIT/dataBase/connect_bd.php');
     
     // collecte des données du form
     $email = $_POST['u_email'];

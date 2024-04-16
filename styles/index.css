@@ -230,10 +230,34 @@ h1,h2{
     color: var(--secondary-color);
 }
 
+
 /** contact **/
+.contact span{
+    color: var(--primary-color) !important;
+}
 input:focus, textarea:focus, .btn:focus{
     border-color: var(--primary-color) !important;
     background-color: var(--primary-color);
+}
+
+/** inscription **/
+.inscription .inscription-bg {
+    background-color: var(--white-color);
+    box-shadow: -4px 4px 6px -6px #eee,
+                -6px 4px 16px 6px #eee;
+}
+
+.inscription .inscription-text {
+    margin-top: 35vh !important;
+}
+@media screen and (max-width:1000px) {
+    .inscription .inscription-text {
+        margin-top: 0vh !important;
+        padding: 1%;
+    }
+}
+.inscription .formulaire span{
+    color: #2ed38b !important;
 }
 
 /*** footer ****/

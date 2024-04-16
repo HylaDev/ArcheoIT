@@ -7,21 +7,21 @@
     <!--Bootstrap 5 link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Mes feuilles de style-->
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="/ArcheoIT/styles/index.css">
 </head>
 <body>
     
     <!-- Nav section-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-        <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="150px" alt=""></a>
+        <a class="navbar-brand" href="index.php"><img src="/ArcheoIT/images/logo.png" width="150px" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mx-auto mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="index.php">accueil</a>
+                    <a class="nav-link " aria-current="page" href="/ArcheoIT/index.php">accueil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link actif" href="about-us.php">qui sommes-nous?</a>
@@ -53,7 +53,7 @@
     <section class='breads mt-5'>
         <div class="container">
             <div class="d-flex">
-                <a href="" class="">Accueil</a> <span class="mx-2">/</span> <p class="actif">qui sommes-nous ?</p>
+                <a href="/ArcheoIT/index.php" class="">Accueil</a> <span class="mx-2">/</span> <p class="actif">qui sommes-nous ?</p>
             </div>
             <hr>
         </div>
@@ -78,7 +78,7 @@
 
                 </div>
                 <div class="col-md-6">
-                    <img src="images/about-img.svg" alt="">
+                    <img src="/ArcheoIT/images/about-img.svg" alt="">
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="card border-0">
-                        <img src="images/dossa.jpg" class="card-img-top" alt="Archeo search">
+                        <img src="/ArcheoIT/images/dossa.jpg" class="card-img-top" alt="Archeo search">
                         <div class="card-body">
                             <h5 class="card-title">Yélian Ernest</h5>
                             <p class="card-text">Président</p>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="col-md-3 ">
                     <div class="card border-0">
-                        <img src="images/dossa.jpg" class="card-img-top" alt="Archeo search">
+                        <img src="/ArcheoIT/images/jess.jpeg" class="card-img-top" alt="Archeo search">
                         <div class="card-body">
                             <h5 class="card-title">Jessy Anja</h5>
                             <p class="card-text">Vice présidente</p>
@@ -112,7 +112,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card border-0">
-                        <img src="images/dossa.jpg" class="card-img-top" alt="Archeo search">
+                        <img src="/ArcheoIT/images/dossa.jpg" class="card-img-top" alt="Archeo search">
                         <div class="card-body">
                             <h5 class="card-title">Tom Joe</h5>
                             <p class="card-text">Secrétaire</p>
@@ -121,7 +121,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card border-0">
-                        <img src="images/dossa.jpg" class="card-img-top" alt="Archeo search">
+                        <img src="/ArcheoIT/images/dossa.jpg" class="card-img-top" alt="Archeo search">
                         <div class="card-body">
                             <h5 class="card-title">Dexter Paris</h5>
                             <p class="card-text">Trésorier</p>
