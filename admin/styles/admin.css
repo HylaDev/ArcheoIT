@@ -14,16 +14,16 @@ body {
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
+  width: 240px;
+  background-color: var(--secondary-color);
   position: fixed;
-  height: 100%;
-  overflow: auto;
+  height: 100vh;
+  overflow: hidden !important;
 }
 
 .sidebar a {
   display: block;
-  color: black;
+  color: var(--white-color);
   padding: 16px;
   text-decoration: none;
 }
@@ -34,14 +34,19 @@ body {
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: var(--secondary-color);
-  color: var(--white-color);
+  background-color: var(--white-color);
+  color: var(--secondary-color);
 }
 
 div.content {
-  margin-left: 200px;
+  margin-left: 250px;
   padding: 1px 16px;
   height: 1000px;
+
+}
+.content .myd-flex{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 div .contacts{
@@ -69,7 +74,7 @@ div .contacts p{
     float: left;
   }
   div.content {
-    margin-left: 0;
+    margin-left: 0!important;
   }
 }
 

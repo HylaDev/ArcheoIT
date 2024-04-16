@@ -73,7 +73,7 @@
                 </div>
                 <div class="col-md-6">
                     <p>Remplissez le formulaire suivant pour nous contacter</p>
-                    <form method="post" action="/ArcheoIT/contactCrud/insert_contact.php">
+                    <form method="post" action="insertion_contact.php">
                         <div class="row">
                             <div class="col">
                                 <input type="text" name="nom" class="form-control" placeholder="Votre nom">
