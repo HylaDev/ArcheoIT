@@ -24,7 +24,7 @@
                     <a class="nav-link " aria-current="page" href="/ArcheoIT/index.php">accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about-us.php">qui sommes-nous?</a>
+                    <a class="nav-link" href="apropos.php">qui sommes-nous?</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,8 +42,7 @@
                
             </ul>
             <span class="navbar-text mr-auto">
-                <a href="contact.php" class="btn btn-primary">contact</a>
-                <a href="contact.php" class="btn btn-secondary">inscription</a>
+                <a href="contact.php" class="btn btn-primary">contact-nous</a>
             </span>
             </div>
         </div>
@@ -54,67 +53,42 @@
     <section class='breads mt-5'>
         <div class="container">
             <div class="d-flex">
-                <a href="/ArcheoIT/index.php" class="">accueil</a> <span class="mx-2">/</span> <p class="actif">contactez-nous</p>
+                <a href="/ArcheoIT/index.php" class="">accueil</a> <span class="mx-2">/</span> <p class="actif">contactez-nous </p>
             </div>
             <hr>
         </div>
     </section>
     <!-- End Breadcrumbs section-->
 
-    <!-- contact -->
-    <section class="contact p-4">
-        <div class="container">
-            <h2 class="my-3 text-center">
-                contactez-<span class="">nous</span>
-            </h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="/ArcheoIT/images/mail.svg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <p>Remplissez le formulaire suivant pour nous contacter</p>
-                    <form method="post" action="insertion_contact.php">
-                        <div class="row">
-                            <div class="col">
-                                <input type="text" name="nom" class="form-control" placeholder="Votre nom">
-                                </div>
-                                <div class="col">
-                                <input type="text" name="prenom" class="form-control" placeholder="Votre prénom">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="objet" class="form-control my-3" id=""  placeholder="Entrez votre objet">
-                            <input type="email" name="email" class="form-control my-3" id=""  placeholder="Entrez votre email">
-                            <textarea name="body" class="form-control" placeholder="Votre message" id="" cols="20" rows="10"></textarea>
-                        </div>
-                        <input type="submit" class="btn btn-primary w-100 my-3"/>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End contact -->
-
     <!-- inscription -->
     <section class="inscription p-4" id="inscription">
         <div class="container">
-            
             <div class="row inscription-bg">
                 <div class="col-lg-6 col-md-12 my-bg-primary text-white">
-                    <div class="container inscription-text text-justify">
-                        <h3>
-                            Nos différents stages pour enfants et adultes
-                        </h3>
-                        <p>
-                            Plongez dans l'aventure passionnante de l'archéologie avec nos programme de stages conçu 
-                            pour les enfants et les adultes !
-                        </p>
+                    <div class="container p-3">
+                    <h2>contactez-<span class="text-white">nous</span></h2>
+                    <p>Remplissez le formulaire suivant pour nous contacter</p>
+                    <form method="post" action="insertionContact.php">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" name="nom" class="form-control" placeholder="Votre nom" required>
+                                </div>
+                                <div class="col">
+                                <input type="text" name="prenom" class="form-control" placeholder="Votre prénom" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="objet" class="form-control my-3" id=""  placeholder="Entrez votre objet" required>
+                            <input type="email" name="email" class="form-control my-3" id=""  placeholder="Entrez votre email" required>
+                            <textarea name="body" class="form-control" placeholder="Votre message" id="" cols="20" rows="10" required></textarea>
+                        </div>
+                        <input type="submit" value="Envoyer" class="btn btn-secondary w-100 my-3"/>
+                    </form>
                     </div>
-                   
                 </div>
                 <div class="col-lg-6 col-md-12 p-3 formulaire">
                     <h2>inscription à un <span>stage</span></h2>
-                    <form method="post" action="/ArcheoIT/inscriptionCrud/insert_inscription.php">
+                    <form method="post" action="insertionStageInscription.php">
                         <div class="row">
                             <div class="col">
                                 <input type="text" name="lastname" class="form-control" placeholder="Votre nom">
@@ -131,7 +105,7 @@
                                 <option value="stage 1">stage 1</options>
                                 <option value="stage 2">stage 2</options>
                             </select>
-                            <textarea name="commentaires" class="form-control" placeholder="Votre message" id="" cols="20" rows="5"></textarea>
+                            <textarea name="commentaires" class="form-control" placeholder="Votre message" id="" cols="20" rows="10"></textarea>
                         </div>
                         <input type="submit" value="Soumettre" class="btn btn-primary w-100 my-3"/>
                     </form>

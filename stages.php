@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ArcheoIT - Revues</title>
+    <title>ArcheoIT - Stages</title>
     <!--Bootstrap 5 link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Mes feuilles de style-->
@@ -21,10 +21,10 @@
             <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mx-auto mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="/ArcheoIT/index.php">accueil</a>
+                    <a class="nav-link " aria-current="page" href="index.php">accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about-us.php">qui sommes-nous?</a>
+                    <a class="nav-link" href="apropos.php">qui sommes-nous?</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,56 +53,56 @@
     <section class='breads mt-5'>
         <div class="container">
             <div class="d-flex">
-                <a href="" class="">accueil</a> <span class="mx-2">/</span> <p class="actif">revues téléchargeable</p>
+                <a href="/ArcheoIT/index.php" class="">Accueil</a> <span class="mx-2">/</span> <p class="actif">stages</p>
             </div>
             <hr>
         </div>
     </section>
     <!-- End Breadcrumbs section-->
 
-    <!-- revues -->
-    <section class="revues p-4">
+    <!-- Stages -->
+    <section class="stage p-4">
         <div class="container">
             <h2 class="my-2 text-center">
-                nos <span class="">revues</span>
+                nos <span class="">stages</span>
             </h2>
             <div class="row">
                 <div class="col-md-4 my-2">
-                   <a href="">
+                   <a href="contact.php#inscription">
                         <div class="card border-0">
-                            <img src="/ArcheoIT/images/book.jpeg" class="card-img-top" alt="Archeo search">
+                            <img src="/ArcheoIT/images/banner.jpeg" class="card-img-top" alt="Archeo search">
                             <div class="card-body">
                                 <h6 class="card-title"><i class="fa fa-clock"></i> 20 Oct. 2023</h6>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <a href="" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
+                                <a href="contact.php#inscription" class="btn btn-primary">S'inscrire</a>
                             </div>
                         </div>
                    </a>
                 </div>
 
                 <div class="col-md-4 my-2">
-                   <a href="">
+                   <a href="contact.php#inscription">
                         <div class="card border-0">
-                            <img src="/ArcheoIT/images/book.jpeg" class="card-img-top" alt="Archeo search">
+                            <img src="/ArcheoIT/images/banner.jpeg" class="card-img-top" alt="Archeo search">
                             <div class="card-body">
                                 <h6 class="card-title"><i class="fa fa-clock"></i> 20 Oct. 2023</h6>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <a href="" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
+                                <a href="contact.php#inscription" class="btn btn-primary">S'inscrire</a>
                             </div>
                         </div>
                    </a>
                 </div>
                 <div class="col-md-4 my-2">
-                   <a href="">
+                   <a href="contact.php#inscription">
                         <div class="card border-0">
-                            <img src="/ArcheoIT/images/book.jpeg" class="card-img-top" alt="Archeo search">
+                            <img src="/ArcheoIT/images/banner.jpeg" class="card-img-top" alt="Archeo search">
                             <div class="card-body">
                                 <h6 class="card-title"><i class="fa fa-clock"></i> 20 Oct. 2023</h6>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <a href="" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
+                                <a href="contact.php#inscription" class="btn btn-primary">S'inscrire</a>
                             </div>
                         </div>
                    </a>
@@ -112,25 +112,7 @@
             </div>
         </div>
     </section>
-    <!-- End revues -->
-
-    <!--Call to action -->
-    <section class="cta p-5 my-bg-primary">
-        <div class="container">
-           <div class="row">
-                <div class="col-md-8">
-                    <p class="text-white"> Envie de participer à nos stages pour enfants et adultes ?
-                        N'attendez plus rien inscrivez-vous dès maintenant à une section de stage.
-                        
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <a href="contact.php#inscription" class="btn btn-secondary">inscription <i class="fa fa-arrow-right"></i></a>
-                </div>
-           </div>
-        </div>
-    </section>
-    <!--End Call to action -->
+    <!-- End Team -->
 
 
     <!-- Footer section-->

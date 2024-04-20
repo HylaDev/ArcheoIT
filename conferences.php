@@ -24,7 +24,7 @@
                     <a class="nav-link " aria-current="page" href="/ArcheoIT/index.php">accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about-us.php">qui sommes-nous?</a>
+                    <a class="nav-link" href="apropos.php">qui sommes-nous?</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
