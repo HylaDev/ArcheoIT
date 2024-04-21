@@ -87,7 +87,7 @@
                     <p>
                         Notre objetif est de comprendre notre passé et de préserver notre patrimoine culturel.
                     </p>
-                    <a href="about-us.php" class="btn btn-secondary">En savoir +</a>
+                    <a href="apropos.php" class="btn btn-secondary">En savoir +</a>
                 </div>
                 <div class="col-md-6">
                     <img src="images/about.jpeg" class="img-fluid" alt="">

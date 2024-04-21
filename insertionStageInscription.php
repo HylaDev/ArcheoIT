@@ -21,7 +21,7 @@ try {
 
     // requête sql
     $sql = "INSERT INTO inscription_stage (nom, prenom, email, date_naissance, stage, commentaires)
-    VALUES ('$nom', '$prenom', '$email', '$date_naissance', '$stage', '$commentaires')";
+            VALUES ('$nom', '$prenom', '$email', '$date_naissance', '$stage', '$commentaires')";
     
     // excecution de la requête
     $connexion->exec($sql);

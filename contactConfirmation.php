@@ -62,7 +62,7 @@
 
     <div class="container text-center">
         <p>
-            Votre demande de contact a été bien pris en compte. 
+            Merci <b><?php echo $_GET['nom']; ?> <?php echo $_GET['prenom']; ?></b>, votre demande de contact a été bien pris en compte. 
             Notre équipe reviendra vers vous dans les plus brefs délais.
         </p>
         

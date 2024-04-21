@@ -8,6 +8,16 @@
 }
 body{
     font-family: "MuseoModerno", sans-serif;
+    animation: fadeOut 1s ease-out forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .btn-primary{
     background-color: transparent;

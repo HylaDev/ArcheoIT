@@ -10,12 +10,11 @@
     <link rel="stylesheet" href="styles/admin.css">
 </head>
 <body>
-    
-     <!-- mon sidebar  -->
+    <!-- mon sidebar  -->
     <div class="sidebar">
         <a href="dashboard.php" class="active" title="dashboard"><i class="fa fa-dashboard"></i> <span>dashboard</span></a>
-        <a href="gestion_contacts.php" title="gestion des contacts"><i class="fa fa-envelope"></i> <span>gestion des contacts</span></a>
-        <a href="gestion_inscription.php" title="gestion des inscriptions"><i class="fa fa-users"></i> <span>gestion des inscriptions</span></a>
+        <a href="gestionContacts.php" title="gestion des contacts"><i class="fa fa-envelope"></i> <span>gestion des contacts</span></a>
+        <a href="gestionInscription.php" title="gestion des inscriptions"><i class="fa fa-users"></i> <span>gestion des inscriptions</span></a>
         <a href="/ArcheoIT/index.php" title="retour au site"><i class="fa fa-globe"></i> <span>retour au site</span></a>
     </div>
 
@@ -33,7 +32,7 @@
                 
                 echo "<a href='gestion_contacts.php'>";
                 echo "<div class='contacts mx-4 my-3'>";
-        
+
                 if ($result->num_rows > 0) {
                     // Fetch total count
                     $row = $result->fetch_assoc();
@@ -54,7 +53,7 @@
             <a href="">
                 <div class="contacts mx-4 my-3">
                     <?php
-                        require('connexion_bd.php');
+                        require('connexionBaseDonnees.php');
 
                         // SQL query to count total records in a table (e.g., "your_table")
                         $sql = "SELECT COUNT(*) AS total FROM inscription_stage";

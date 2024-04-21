@@ -62,14 +62,16 @@
 
     <div class="container">
         <p>
-            Nous vous remercions d'avoir choisir ArcheoIT. Nous reviendrons vers vous 
+            <b><?php echo $_GET['nom']; ?> <?php echo $_GET['prenom']; ?></b>, nous vous remercions d'avoir choisir ArcheoIT. Nous reviendrons vers vous 
             dans les plus brefs délais.
         </p>
         <p>
             Voici un résumé de votre inscription: 
             <ul>
-                <li>Votre nom: <?php echo $_GET['nom']; ?></li>
-                <li>Votre nom: <?php echo $_GET['nom']; ?></li>
+                <li>Votre adresse email: <?php echo $_GET['email']; ?></li>
+                <li>Le stage choisi: <?php echo $_GET['stage']; ?></li>
+                <li>Votre date de naissance: <?php echo $_GET['date_naissance']; ?></li>
+                <li>Votre commentaire: <?php echo $_GET['commentaires']; ?></li>
             </ul>
         </p>
     </div>

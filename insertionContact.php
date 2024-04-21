@@ -20,14 +20,14 @@ try {
 
     // requête sql
     $sql = "INSERT INTO contacts (nom, prenom, email, objet, body)
-    VALUES ('$nom', '$prenom', '$email', '$objet', '$body')";
+            VALUES ('$nom', '$prenom', '$email', '$objet', '$body')";
 
     // excecution de la requête
     $connexion->exec($sql);
      
-    header("Location:contactConfirmation.php");
+    header("Location:contactConfirmation.php?nom=$nom&prenom=$prenom&email=$email&objet=$objet");
   } catch(PDOException $e) {
-    echo $sql . "<br>" . $e->getMessage();
+    header("Location:contact.php");
   }
 // Fermeture de la connexion
 $connexion = null;

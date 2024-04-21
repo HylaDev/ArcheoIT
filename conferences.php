@@ -66,48 +66,30 @@
             <h2 class="my-2 text-center">
                 nos <span class="">conférences</span>
             </h2>
-            <p class="text-center">Chaque dernier jeudi du mois nous réalisons une conférence sur nos différentes découvertes
+            <p class="text-center">Chaque dernier jeudi du mois nous réalisons une conférence sur nos différentes découvertes.
             </p>
             <div class="row">
                 <div class="col-md-6 mt-5">
                     <div class="">
                         <p class="text-justify">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus unde natus rerum blanditiis consectetur repellat? Molestiae, neque a, dicta ea nam, alias dolorem optio at fugiat hic in velit.
+                            À travers les siècles, Alexandrie a été le théâtre de rencontres entre les cultures, les religions et les idées. 
+                            Fondée par Alexandre le Grand en 331 avant J.-C., elle est devenue un centre cosmopolite de commerce, de savoir et d'innovation. 
+                            Sa bibliothèque légendaire, abritant des centaines de milliers de rouleaux de papyrus, était le joyau intellectuel du monde antique.
                         </p>
                         <p class="text-justify">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus unde natus rerum blanditiis consectetur repellat? Molestiae, neque a, dicta ea nam, alias dolorem optio at fugiat hic in velit.
+                            Lors de notre conférence, nous explorerons les dernières découvertes et les recherches récentes menées à Alexandrie. 
+                            Des archéologues éminents partageront leurs découvertes sur les vestiges submergés de cette cité autrefois grandiose, 
+                            ainsi que sur ses monuments emblématiques, tels que le phare de Pharos et les catacombes de Kom el Shoqafa.
                         </p>
                         <div class="d-flex">
-                            <p><i class="fa fa-calendar"> 21 Sept 2024</i></p>
+                            <p><i class="fa fa-calendar"> 25 Mai 2024</i></p>
                             <p class="mx-3"><i class="fa fa-map-marker"> Orléans 45</i></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="">
-                        <img src="/ArcheoIT/images/meeting_1.jpeg" class="card-img-top" alt="Archeo search">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-            <div class="col-md-6 my-2 order-lg-2 order-md-1">
-                    <div class="">
-                        <img src="/ArcheoIT/images/meeting_1.jpeg" class="card-img-top" alt="Archeo search">
-                    </div>
-                </div>
-                <div class="col-md-6 mt-5 order-lg-2 order-md-1">
-                    <div class="">
-                        <p class="text-justify">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus unde natus rerum blanditiis consectetur repellat? Molestiae, neque a, dicta ea nam, alias dolorem optio at fugiat hic in velit.
-                        </p>
-                        <p class="text-justify">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus unde natus rerum blanditiis consectetur repellat? Molestiae, neque a, dicta ea nam, alias dolorem optio at fugiat hic in velit.
-                        </p>
-                        <div class="d-flex">
-                            <p><i class="fa fa-calendar"> 21 Sept 2024</i></p>
-                            <p class="mx-3"><i class="fa fa-map-marker"> Orléans 45</i></p>
-                        </div>
+                        <img src="/ArcheoIT/images/alexandrie.jpg" class="card-img-top" alt="Alexandrie">
                     </div>
                 </div>
             </div>
@@ -126,7 +108,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <a href="" class="btn btn-secondary">inscription <i class="fa fa-arrow-right"></i></a>
+                    <a href="contact.php" class="btn btn-secondary">inscription <i class="fa fa-arrow-right"></i></a>
                 </div>
            </div>
         </div>

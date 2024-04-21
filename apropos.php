@@ -75,7 +75,6 @@
                     <p class="text-justify">
                         Sa création traduit l'importance prise, depuis les années 1970, par la recherche archéologique en France, et témoigne de la volonté de l'État de soutenir l'exercice de cette mission de service public d'intérêt général.
                     </p>
-
                 </div>
                 <div class="col-md-6">
                     <img src="/ArcheoIT/images/about-img.svg" alt="">
@@ -94,7 +93,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="card border-0">
-                        <img src="/ArcheoIT/images/dossa.jpg" class="card-img-top" alt="Archeo search">
+                        <img src="/ArcheoIT/images/president.jpeg" class="card-img-top" alt="Président">
                         <div class="card-body">
                             <h5 class="card-title">Yélian Ernest</h5>
                             <p class="card-text">Président</p>
@@ -103,7 +102,7 @@
                 </div>
                 <div class="col-md-3 ">
                     <div class="card border-0">
-                        <img src="/ArcheoIT/images/jess.jpeg" class="card-img-top" alt="Archeo search">
+                        <img src="/ArcheoIT/images/jess.jpeg" class="card-img-top" alt="Vice présidente">
                         <div class="card-body">
                             <h5 class="card-title">Jessy Anja</h5>
                             <p class="card-text">Vice présidente</p>
@@ -112,7 +111,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card border-0">
-                        <img src="/ArcheoIT/images/dossa.jpg" class="card-img-top" alt="Archeo search">
+                        <img src="/ArcheoIT/images/president.jpeg" class="card-img-top" alt="Secrétaire">
                         <div class="card-body">
                             <h5 class="card-title">Tom Joe</h5>
                             <p class="card-text">Secrétaire</p>
@@ -121,7 +120,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card border-0">
-                        <img src="/ArcheoIT/images/dossa.jpg" class="card-img-top" alt="Archeo search">
+                        <img src="/ArcheoIT/images/president.jpeg" class="card-img-top" alt="Trésorier">
                         <div class="card-body">
                             <h5 class="card-title">Dexter Paris</h5>
                             <p class="card-text">Trésorier</p>
@@ -146,7 +145,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <a href="" class="btn btn-secondary">inscription <i class="fa fa-arrow-right"></i></a>
+                    <a href="contact.php" class="btn btn-secondary">inscription <i class="fa fa-arrow-right"></i></a>
                 </div>
            </div>
         </div>
