@@ -81,7 +81,9 @@
                         </h2>
                     </div>
                     <p>
-                        Notre équipe est composée de jeunes archéologues passionnés et énergiques. En collaboration avec des experts de l'<a class="text-gray" href="https://www.inrap.fr/" target="blank">Inrap</a>, nous entreprenons des fouilles à travers le monde, 
+                        Notre équipe est composée de jeunes archéologues passionnés et énergiques. 
+                        En collaboration avec des experts de l'<a class="text-gray" href="https://www.inrap.fr/" target="blank">Inrap</a>, 
+                        nous entreprenons des fouilles à travers la France, 
                         explorant divers sites archéologiques avec enthousiasme et engagement.
                     </p>
                     <p>

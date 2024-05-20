@@ -75,7 +75,7 @@
                                 <h6 class="card-title"><i class="fa fa-clock"></i> 20 Oct. 2023</h6>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <a href="" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
+                                <a href="https://drive.google.com/file/d/11K3k7iUiQ53wG4meSCB21a7Hx5XikNcp/view?usp=sharing" target="blank" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
                             </div>
                         </div>
                    </a>
@@ -89,7 +89,7 @@
                                 <h6 class="card-title"><i class="fa fa-clock"></i> 20 Oct. 2023</h6>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <a href="" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
+                                <a href="https://drive.google.com/file/d/11K3k7iUiQ53wG4meSCB21a7Hx5XikNcp/view?usp=sharing" target="blank" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
                             </div>
                         </div>
                    </a>
@@ -102,7 +102,7 @@
                                 <h6 class="card-title"><i class="fa fa-clock"></i> 20 Oct. 2023</h6>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <a href="" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
+                                <a href="https://drive.google.com/file/d/11K3k7iUiQ53wG4meSCB21a7Hx5XikNcp/view?usp=sharing" target="blank" class="btn btn-primary"><i class="fa fa-download"> Télécharger</i></a>
                             </div>
                         </div>
                    </a>

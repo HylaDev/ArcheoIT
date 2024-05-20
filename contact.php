@@ -101,11 +101,13 @@
                             <input type="email" name="u_email" class="form-control my-3" id=""  placeholder="Entrez votre email">
                             <input type="date" name="date_naissance" class="form-control my-3" id=""  placeholder="Entrez votre objet">
                             <select name="stage" class="form-control my-3" id="">
-                                <option>Sélectionnez</options>
-                                <option value="stage 1">stage 1</options>
-                                <option value="stage 2">stage 2</options>
+                                <option>Sélectionnez un stage</options>
+                                <option value="musee">Musée du Mont Beuvra</options>
+                                <option value="egypt">L'histoire egyptienne</options>
+                                <option value="alexandre">Alexandre le grand</options>
+                                <option value="grece">La mythologie grecque</options>
                             </select>
-                            <textarea name="commentaires" class="form-control" placeholder="Votre message" id="" cols="20" rows="10"></textarea>
+                            <textarea name="commentaires" class="form-control" placeholder="Votre commentaire" id="" cols="20" rows="10"></textarea>
                         </div>
                         <input type="submit" value="Soumettre" class="btn btn-primary w-100 my-3"/>
                     </form>

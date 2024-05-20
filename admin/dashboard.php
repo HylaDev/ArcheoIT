@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/admin.css">
 </head>
 <body>
+
     <!-- mon sidebar  -->
     <div class="sidebar">
         <a href="dashboard.php" class="active" title="dashboard"><i class="fa fa-dashboard"></i> <span>dashboard</span></a>
@@ -22,15 +23,44 @@
     <div class="content">
         <div class="container mt-5 myd-flex">
             <?php
-                require('connexion_bd.php');
-                // SQL query to count total records in a table (e.g., "your_table")
-                $sql = "SELECT COUNT(*) AS total FROM contacts";
+                require('connexionBaseDonnees.php');
+                // requête sql pour compter le nombre de demande de contacts
+                $sql = "SELECT COUNT(*) AS totalContacts FROM contacts";
+
+                // exécution de la requête sql
+                $reponse = $connected->query($sql);
+
+                
+                echo "<a href='gestionContacts.php'>";
+                echo "<div class='contacts mx-4 my-3'>";
+
+                if ($reponse->num_rows > 0) {
+                    // récupération du nombre total avec fetch_assoc()
+                    $row = $reponse->fetch_assoc();
+                    $totalContacts = $row["totalContacts"];
+                    
+                    // afficher le total des contacts
+                    echo "<h1><b><i class='fa fa-envelope'></i> $totalContacts</b></h1>";
+                    echo"<p class='text-center'>contacts</p>";
+                } else {
+                    // afficher le total des contacts
+                    echo "<h1><b><i class='fa fa-envelope'></i> 0</b></h1>";
+                    echo"<p class='text-center'>contacts</p>";
+                }
+                   echo " </div>";
+                echo "</a>";
+            ?>
+
+            <?php
+                require('connexionBaseDonnees.php');
+                // requête sql pour compter le nombre de demande de contacts
+                $sql = "SELECT COUNT(*) AS total FROM inscription_stage";
 
                 // Execute query
                 $result = $connected->query($sql);
 
                 
-                echo "<a href='gestion_contacts.php'>";
+                echo "<a href='gestionInscription.php'>";
                 echo "<div class='contacts mx-4 my-3'>";
 
                 if ($result->num_rows > 0) {
@@ -39,46 +69,18 @@
                     $totalCount = $row["total"];
                     
                     // Display total count
-                    echo "<h1><i class='fa fa-envelope'></i> $totalCount</h1>";
-                    echo"<p class='text-center'>contacts</p>";
-                } else {
-                    echo "No records found";
+                    echo "<h1><i class='fa fa-users'></i> $totalCount</h1>";
+                    echo"<p class='text-center'>inscriptions</p>";
+                }
+                else {
+                    // afficher le total des contacts
+                    echo "<h1><b><i class='fa fa-users'></i> 0</b></h1>";
+                    echo"<p class='text-center'>inscriptions</p>";
                 }
                    echo " </div>";
                 echo "</a>";
-
-                
             ?>
 
-            <a href="">
-                <div class="contacts mx-4 my-3">
-                    <?php
-                        require('connexionBaseDonnees.php');
-
-                        // SQL query to count total records in a table (e.g., "your_table")
-                        $sql = "SELECT COUNT(*) AS total FROM inscription_stage";
-
-                        // Execute query
-                        $result = $connected->query($sql);
-
-                        if ($result->num_rows > 0) {
-                            // Fetch total count
-                            $row = $result->fetch_assoc();
-                            $totalCount = $row["total"];
-                            
-                            // Display total count
-                            echo "<h1><i class='fa fa-envelope'></i> $totalCount</h1>";
-                            echo"<p class='text-center'>contacts</p>";
-                        } else {
-                            echo "No records found";
-                        }
-
-                        // Close connection
-                        $conn->close();
-                    ?>
-                </div>
-            </a>
-            
         </div> 
     </div> 
 

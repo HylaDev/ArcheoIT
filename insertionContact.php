@@ -20,7 +20,7 @@ try {
 
     // requête sql
     $sql = "INSERT INTO contacts (nom, prenom, email, objet, body)
-            VALUES ('$nom', '$prenom', '$email', '$objet', '$body')";
+            VALUES ($nom, $prenom, $email, $objet, $body)";
 
     // excecution de la requête
     $connexion->exec($sql);

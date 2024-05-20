@@ -1,6 +1,6 @@
 <?php
 if(isset($_GET['id'])) {
-    require('connexion_bd.php');
+    require('connexionBaseDonnees.php');
 
   $id = $_GET['id'];
   $sql = "DELETE FROM inscription_stage WHERE id = $id";
@@ -8,7 +8,7 @@ if(isset($_GET['id'])) {
   $execution = mysqli_query($connected, $sql);
 
   if ($execution === TRUE) {
-    header("Location:gestion_inscription.php");
+    header("Location:gestionInscription.php");
   } else {
     echo "Erreur lors de la suppression: " . $connected->error;
   }

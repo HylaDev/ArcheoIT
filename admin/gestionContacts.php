@@ -21,7 +21,7 @@
     <!-- contenu de la page -->
     <div class="content">
         <div class="container mt-5 table-responsive">
-          <h2>Liste des demandent de contacts</h2>
+          <h2>Liste des demandes de contacts</h2>
           <table class="table table-bordered table-hover">
             <thead class="table-dark">
               <tr>
